@@ -94,7 +94,7 @@ Client::~Client() {
     
 }
 
-void Client::clientLink() {
+void Client::clientLink(const char* IP, const unsigned int SERV_PORT) {
     unsigned int port;
 
     if((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1){
@@ -123,19 +123,20 @@ void Client::clientLink() {
 
 
 void Client::clientWrite() {
+    char a[1024];
     string req = "request";
-    string *request = &req;
-    send(sockfd, request, sizeof(*request), 0);
+    int len = req.copy(a, 1024);
+    //string *request = &req;
+    send(sockfd, a, len, 0);
+    //send(sockfd, request, sizeof(*request), 0);
 }
 
 
-void Client::clientWrite(cv::Point centerPoint) {
-    
-    string poseX = to_string(centerPoint.x);
-    string poseY = to_string(centerPoint.y);
-    string pose = "x:" + poseX + "   " + "y:" + poseY;
-    string* news = &pose;
-    send(sockfd, news, sizeof(*news), 0);
+void Client::clientWrite(float angle) {
+    char a[1024];
+    string ang = to_string(angle);
+    int len = ang.copy(a, 1024);
+    send(sockfd, a, len, 0);
 }
 
 
@@ -148,7 +149,7 @@ string Client::clientRead() {
         string temp(bufstr, 0, 4);
         if (temp == "AABB"){
             string ans(bufstr, 4, 1);
-            cout << "model: " << ans;
+            cout << "model: " << ans << endl;
             return ans;
         }
     }

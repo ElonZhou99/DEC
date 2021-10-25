@@ -165,13 +165,13 @@ int main(int argc, const char * argv[]) {
         // 在result_image中执行阈值直线检测，返回直线的中点mid_y坐标
         // y = minLoc.y + mid_y
         cv::Mat dst, cdst, cdstP;
-        cv::Mat init_image;
+        cv::Mat init_image, threshold_image;
         init_image = HikCamera.get_one_frame();
         init_image = HikCamera.convert2Mat(init_image);
         GaussianBlur(init_image, init_image, cv::Size(3, 3), 15, 15);
-        threshold(init_image, init_image, 170, 255, cv::THRESH_BINARY);
+        threshold(init_image, threshold_image, 10, 255, cv::THRESH_BINARY);
         
-        Canny(init_image, dst, 150, 300);
+        Canny(threshold_image, dst, 150, 300);
         cvtColor(dst, cdst, cv::COLOR_GRAY2BGR);
         cdstP = cdst.clone();
         
@@ -205,7 +205,10 @@ int main(int argc, const char * argv[]) {
         }
         // Show results
         imshow("Source", init_image);
-        imshow("Detected Lines (in red) - Standard Hough Line Transform", cdst);
+        imshow("Source1", threshold_image
+               
+               );
+        //imshow("Detected Lines (in red) - Standard Hough Line Transform", cdst);
         imshow("Detected Lines (in red) - Probabilistic Line Transform", cdstP);
         
         if (cv::waitKey(1000 / FPS) == 27){

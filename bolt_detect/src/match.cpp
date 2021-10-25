@@ -21,14 +21,25 @@ MatchTemplate::~MatchTemplate() {
 }
 
 void MatchTemplate::coverTaret(cv::Mat &result, cv::Point minLoc, int maxVaule, int cols, int rows) {
-    int startX = minLoc.x - (cols / 4);
-    int startY = minLoc.y - (rows / 4);
+    int startX = minLoc.x - cols / 4;
+    int startY = minLoc.y - rows / 4;
     
-    int endX = minLoc.x + (cols);
-    int endY = minLoc.y + (rows);
+    int endX = minLoc.x + cols / 4;
+    int endY = minLoc.y + rows / 4;
+    if(startX < 0 || startY < 0)
+    {
+        startX = 0;
+        startY = 0;
+    }
+    if(endX > result.cols - 1 || endY > result.rows - 1)
+    {
+        endX = result.cols - 1;
+        endY = result.rows - 1;
+    }
+
     for (int y = startY; y < endY; y++) {
         for (int x = startX; x < endX; x++) {
-            result.at<float>(y, x) = 0.3;
+            result.at<float>(y, x) = 0.8;
         }
     }
 }
