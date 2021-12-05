@@ -33,6 +33,7 @@ add_executable(camera ${SOURCE_FILES})
 # Add OpenCV headers location to your include paths
 include_directories(${OpenCV_INCLUDE_DIRS})
 include_directories("./include")
+include_directories("./headers")
 
 
  

@@ -165,8 +165,8 @@ bool HikCamera::get_one_frame()
         shutdown();
         return false;
     }
-    printf("Now you GetOneFrame, Width[%d], Height[%d], nFrameNum[%d]\n\n",
-           stImageInfo.nWidth, stImageInfo.nHeight, stImageInfo.nFrameNum);
+    //printf("Now you GetOneFrame, Width[%d], Height[%d], nFrameNum[%d]\n\n",
+    //       stImageInfo.nWidth, stImageInfo.nHeight, stImageInfo.nFrameNum);
     return true;
 }
 

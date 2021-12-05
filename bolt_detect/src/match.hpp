@@ -13,7 +13,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <iostream>
-#include <sstream>
 #include <vector>
 
 #include "opencv2/opencv.hpp"
