@@ -1,6 +1,6 @@
 CMakeFiles/txt_option.dir/src/txt_option.cpp.o: \
-  /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/src/txt_option.cpp \
-  /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/include/txt_option.hpp \
+  /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/src/txt_option.cpp \
+  /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/include/txt_option.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/pthread.h \

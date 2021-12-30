@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/include -isystem /usr/local/Cellar/opencv/4.5.3_2/include/opencv4
+CXX_INCLUDES = -I/Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/include -I/Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build -isystem /usr/local/Cellar/opencv/4.5.3_2/include/opencv4
 
 CXX_FLAGS =  -std=c++14 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++11
 

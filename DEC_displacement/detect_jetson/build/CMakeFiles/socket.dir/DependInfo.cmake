@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/src/socket.cpp" "CMakeFiles/socket.dir/src/socket.cpp.o" "gcc" "CMakeFiles/socket.dir/src/socket.cpp.o.d"
+  "/Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/src/socket.cpp" "CMakeFiles/socket.dir/src/socket.cpp.o" "gcc" "CMakeFiles/socket.dir/src/socket.cpp.o.d"
   )
 
 # Targets to which this target links.

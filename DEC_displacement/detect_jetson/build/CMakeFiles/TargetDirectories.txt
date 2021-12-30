@@ -1,5 +1,5 @@
-/Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build/CMakeFiles/rebuild_cache.dir
-/Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build/CMakeFiles/edit_cache.dir
-/Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build/CMakeFiles/txt_option.dir
-/Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build/CMakeFiles/socket.dir
-/Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build/CMakeFiles/main.dir
+/Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build/CMakeFiles/rebuild_cache.dir
+/Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build/CMakeFiles/edit_cache.dir
+/Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build/CMakeFiles/txt_option.dir
+/Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build/CMakeFiles/socket.dir
+/Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build/CMakeFiles/main.dir

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/src/txt_option.cpp" "CMakeFiles/txt_option.dir/src/txt_option.cpp.o" "gcc" "CMakeFiles/txt_option.dir/src/txt_option.cpp.o.d"
+  "/Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/src/txt_option.cpp" "CMakeFiles/txt_option.dir/src/txt_option.cpp.o" "gcc" "CMakeFiles/txt_option.dir/src/txt_option.cpp.o.d"
   )
 
 # Targets to which this target links.

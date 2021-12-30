@@ -1,6 +1,6 @@
 CMakeFiles/socket.dir/src/socket.cpp.o: \
-  /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/src/socket.cpp \
-  /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/include/socket.hpp \
+  /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/src/socket.cpp \
+  /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/include/socket.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/usr/include/pthread.h \

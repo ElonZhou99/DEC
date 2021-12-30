@@ -53,10 +53,10 @@ RM = /usr/local/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/bin/cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson
+CMAKE_SOURCE_DIR = /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build
+CMAKE_BINARY_DIR = /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/txt_option.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/txt_option.dir/flags.make
 CMakeFiles/txt_option.dir/src/txt_option.cpp.o: CMakeFiles/txt_option.dir/flags.make
 CMakeFiles/txt_option.dir/src/txt_option.cpp.o: ../src/txt_option.cpp
 CMakeFiles/txt_option.dir/src/txt_option.cpp.o: CMakeFiles/txt_option.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/txt_option.dir/src/txt_option.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/txt_option.dir/src/txt_option.cpp.o -MF CMakeFiles/txt_option.dir/src/txt_option.cpp.o.d -o CMakeFiles/txt_option.dir/src/txt_option.cpp.o -c /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/src/txt_option.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/txt_option.dir/src/txt_option.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/txt_option.dir/src/txt_option.cpp.o -MF CMakeFiles/txt_option.dir/src/txt_option.cpp.o.d -o CMakeFiles/txt_option.dir/src/txt_option.cpp.o -c /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/src/txt_option.cpp
 
 CMakeFiles/txt_option.dir/src/txt_option.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/txt_option.dir/src/txt_option.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/src/txt_option.cpp > CMakeFiles/txt_option.dir/src/txt_option.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/src/txt_option.cpp > CMakeFiles/txt_option.dir/src/txt_option.cpp.i
 
 CMakeFiles/txt_option.dir/src/txt_option.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/txt_option.dir/src/txt_option.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/src/txt_option.cpp -o CMakeFiles/txt_option.dir/src/txt_option.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/src/txt_option.cpp -o CMakeFiles/txt_option.dir/src/txt_option.cpp.s
 
 # Object files for target txt_option
 txt_option_OBJECTS = \
@@ -93,7 +93,7 @@ txt_option_EXTERNAL_OBJECTS =
 libtxt_option.a: CMakeFiles/txt_option.dir/src/txt_option.cpp.o
 libtxt_option.a: CMakeFiles/txt_option.dir/build.make
 libtxt_option.a: CMakeFiles/txt_option.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtxt_option.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtxt_option.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/txt_option.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/txt_option.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/txt_option.dir/clean:
 .PHONY : CMakeFiles/txt_option.dir/clean
 
 CMakeFiles/txt_option.dir/depend:
-	cd /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build/CMakeFiles/txt_option.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build/CMakeFiles/txt_option.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/txt_option.dir/depend
 

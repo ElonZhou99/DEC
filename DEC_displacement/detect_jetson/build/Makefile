@@ -57,10 +57,10 @@ RM = /usr/local/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/bin/cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson
+CMAKE_SOURCE_DIR = /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build
+CMAKE_BINARY_DIR = /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build/CMakeFiles /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build/CMakeFiles /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

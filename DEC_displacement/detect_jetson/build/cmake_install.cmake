@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson
+# Install script for directory: /Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Volumes/A/DEC_robotic/DEC/hikcamera/detect_jetson/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/A/DEC_robotic/DEC/DEC_displacement/detect_jetson/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
