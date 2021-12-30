@@ -221,7 +221,6 @@ int main(int argc, const char *argv[])
     while (model == 3)
     {
         VideoCapture capture(0);
-
         Mat init_image;
         while (capture.isOpened())
         {
@@ -248,7 +247,7 @@ int main(int argc, const char *argv[])
             string info_deltaY = "delta is " + init_y;
             cout << info_deltaY << endl;
             socket.clientWrite(info_deltaY);
-            // imshow("Camera Calibration", imageInput); // 显示图
+            //imshow("Camera Calibration", imageInput); // 显示图
 
             if (cv::waitKey(1000 / FPS) == 27)
             {
